@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Color API Solo Project</title>
 </head>
 <body>
+    <header>
+        <h1>Colour Scheme</h1>
+    </header>
+
+    <form action="" id="form-el">
+        <input  class="color" name="color" id="color" type="color">
+        <select name="color-scheme" id="color-scheme">
+            <option value="monochrome">monochrome</option>
+            <option value="monochrome-dark">Monochrome-dark</option>
+            <option value="monochrome-light">Monochrome-light</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic-complement</option>
+            <option value="triad">Triad</option>
+            <option value="quad">Quad</option>
+        </select>
+        <button class="color-btn" id="color-btn">Get color scheme</button>
+    </form>
     
+    <div class="color-container" id="color-container"></div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
